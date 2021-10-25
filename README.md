@@ -19,9 +19,9 @@ The following five preprocessing steps have been performed on the crypto_df Data
 - All the rows that have at least one null value are removed.
 - All the rows that do not have coins being mined are removed.
 - The CoinName column is dropped.
-- A new DataFrame is created that stores all cryptocurrency names from the CoinName column and retains the index from the crypto_df DataFrame (5 pt)
-- The get_dummies() method is used to create variables for the text features, which are then stored in a new DataFrame, X (5 pt)
-- The features from the X DataFrame have been standardized using the StandardScaler fit_transform() function (5 pt)
+- A new DataFrame is created that stores all cryptocurrency names from the CoinName column and retains the index from the crypto_df DataFrame.
+- The get_dummies() method is used to create variables for the text features, which are then stored in a new DataFrame, X.
+- The features from the X DataFrame have been standardized using the StandardScaler fit_transform() function.
 
 <p align="center"><img class="centerImage" src="https://github.com/dalejandri/Cryptocurrencies/blob/main/Resources/2.PNG" /></p>
 
