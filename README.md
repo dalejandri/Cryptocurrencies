@@ -48,4 +48,6 @@ The K-means algorithm is used to cluster the cryptocurrencies using the PCA data
 
 <p align="center"><img class="centerImage" src="https://github.com/dalejandri/Cryptocurrencies/blob/main/Resources/5.PNG" /></p>
 
-<p align="center"><img class="centerImage" src="https://github.com/dalejandri/Cryptocurrencies/blob/main/Resources/4.PNG" /></p>
+## Deliverable 4: Visualizing Cryptocurrencies Results
+Using scatter plots with Plotly Express and hvplot, you’ll visualize the distinct groups that correspond to the three principal components created in Deliverable 2, then create a table with all the currently tradable cryptocurrencies using the hvplot.table() function.
+
