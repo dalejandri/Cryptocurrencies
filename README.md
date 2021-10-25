@@ -11,7 +11,7 @@ Martha is a senior manager for the Advisory Services Team at Accountability Acco
 The data Martha will be working with is not ideal, so it will need to be processed to fit the machine learning models. Since there is no known output for what Martha is looking for, she has decided to use unsupervised learning. To group the cryptocurrencies, Martha decided on a clustering algorithm. She’ll use data visualizations to share her findings with the board.
 
 
-- Deliverable 1: Preprocessing the Data for PCA 
+## Deliverable 1: Preprocessing the Data for PCA 
 The following five preprocessing steps have been performed on the crypto_df DataFrame:
 
 - All cryptocurrencies that are not being traded are removed.
@@ -26,3 +26,10 @@ The following five preprocessing steps have been performed on the crypto_df Data
 <p align="center"><img class="centerImage" src="https://github.com/dalejandri/Cryptocurrencies/blob/main/Resources/2.PNG" /></p>
 
 
+## Deliverable 2: Reducing Data Dimensions Using PCA
+Apply the Principal Component Analysis (PCA) algorithm, you’ll reduce the dimensions of the X DataFrame to three principal components and place these dimensions in a new DataFrame.
+
+- The PCA algorithm reduces the dimensions of the X DataFrame down to three principal components.
+- The pcs_df DataFrame is created and has the following three columns, PC 1, PC 2, and PC 3, and has the index from the crypto_df DataFrame.
+
+<p align="center"><img class="centerImage" src="https://github.com/dalejandri/Cryptocurrencies/blob/main/Resources/3.PNG" /></p>
