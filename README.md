@@ -33,3 +33,14 @@ Apply the Principal Component Analysis (PCA) algorithm, you’ll reduce the dime
 - The pcs_df DataFrame is created and has the following three columns, PC 1, PC 2, and PC 3, and has the index from the crypto_df DataFrame.
 
 <p align="center"><img class="centerImage" src="https://github.com/dalejandri/Cryptocurrencies/blob/main/Resources/3.PNG" /></p>
+
+## Deliverable 3: Clustering Cryptocurrencies Using K-means
+Create an elbow curve using hvPlot to find the best value for K from the pcs_df DataFrame created in Deliverable 2. Then, you’ll run the K-means algorithm to predict the K clusters for the cryptocurrencies’ data.
+
+The K-means algorithm is used to cluster the cryptocurrencies using the PCA data, where the following steps have been completed:
+
+- An elbow curve is created using hvPlot to find the best value for K.
+- Predictions are made on the K clusters of the cryptocurrencies’ data.
+- - A new DataFrame is created with the same index as the crypto_df DataFrame and has the following columns: Algorithm, ProofType, TotalCoinsMined, TotalCoinSupply, PC 1, PC 2, PC 3, CoinName, and Class.
+
+<p align="center"><img class="centerImage" src="https://github.com/dalejandri/Cryptocurrencies/blob/main/Resources/4.PNG" /></p>
