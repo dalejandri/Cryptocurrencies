@@ -51,3 +51,22 @@ The K-means algorithm is used to cluster the cryptocurrencies using the PCA data
 ## Deliverable 4: Visualizing Cryptocurrencies Results
 Using scatter plots with Plotly Express and hvplot, you’ll visualize the distinct groups that correspond to the three principal components created in Deliverable 2, then create a table with all the currently tradable cryptocurrencies using the hvplot.table() function.
 
+- The clusters are plotted using a 3D scatter plot, and each data point shows the CoinName and Algorithm on hover.
+
+<p align="center"><img class="centerImage" src="https://github.com/dalejandri/Cryptocurrencies/blob/main/Resources/6.PNG" /></p>
+
+- A table with tradable cryptocurrencies is created using the hvplot.table() function.
+
+<p align="center"><img class="centerImage" src="https://github.com/dalejandri/Cryptocurrencies/blob/main/Resources/7.PNG" /></p>
+
+- The total number of tradable cryptocurrencies is printed.
+
+<p align="center"><img class="centerImage" src="https://github.com/dalejandri/Cryptocurrencies/blob/main/Resources/8.PNG" /></p>
+
+- A DataFrame is created that contains the clustered_df DataFrame index, the scaled data, and the CoinName and Class columns
+
+<p align="center"><img class="centerImage" src="https://github.com/dalejandri/Cryptocurrencies/blob/main/Resources/9.PNG" /></p>
+
+- A hvplot scatter plot is created where the X-axis is "TotalCoinsMined", the Y-axis is "TotalCoinSupply", the data is ordered by "Class", and it shows the CoinName when you hover over the data point.
+
+<p align="center"><img class="centerImage" src="https://github.com/dalejandri/Cryptocurrencies/blob/main/Resources/10.PNG" /></p>
