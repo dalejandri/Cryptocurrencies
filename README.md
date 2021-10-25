@@ -11,6 +11,6 @@ Martha is a senior manager for the Advisory Services Team at Accountability Acco
 The data Martha will be working with is not ideal, so it will need to be processed to fit the machine learning models. Since there is no known output for what Martha is looking for, she has decided to use unsupervised learning. To group the cryptocurrencies, Martha decided on a clustering algorithm. She’ll use data visualizations to share her findings with the board.
 
 
-Deliverable 1: Preprocessing the Data for PCA 
+- Deliverable 1: Preprocessing the Data for PCA 
 
 Using Pandas, preprocess the dataset in order to perform PCA in Deliverable 2.
